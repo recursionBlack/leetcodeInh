@@ -1,7 +1,0 @@
-[
-{
-  "directory": "D:/testProj/gitpull/LeetCodeCmake/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE   @CMakeFiles/LecMain.dir/includes_CXX.rsp -g   -o CMakeFiles\\LecMain.dir\\src\\main.cpp.obj -c D:\\testProj\\gitpull\\LeetCodeCmake\\src\\main.cpp",
-  "file": "D:/testProj/gitpull/LeetCodeCmake/src/main.cpp"
-}
-]

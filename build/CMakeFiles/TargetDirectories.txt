@@ -1,3 +1,0 @@
-D:/testProj/gitpull/LeetCodeCmake/build/CMakeFiles/LecMain.dir
-D:/testProj/gitpull/LeetCodeCmake/build/CMakeFiles/edit_cache.dir
-D:/testProj/gitpull/LeetCodeCmake/build/CMakeFiles/rebuild_cache.dir
