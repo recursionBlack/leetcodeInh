@@ -1,10 +1,10 @@
-#include "../Qstring/lec003.h"
+#include "../Qstring/lec013.h"
 
 using namespace std;
 
 int main()
 {
-    Solution003 *S = new Solution003;
+    Solution013 *S = new Solution013;
     S->ShuRu();
     S->ChuShu();
     system("pause");
