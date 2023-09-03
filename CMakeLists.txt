@@ -1,7 +1,7 @@
 #https://subingwen.cn/cmake/CMake-primer/
 
 
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.17.0)
 
 project(LEC)
 
