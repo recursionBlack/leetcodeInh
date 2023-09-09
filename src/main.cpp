@@ -3,12 +3,13 @@
 #include "../NodeList/lec021.h"
 #include "../DP/lec322.h"
 #include "../DP/lec072.h"
+#include "../DP/lecpkg01.h"
 
 using namespace std;
 
 int main()
 {
-    Solution072 *S = new Solution072;
+    SolutionPkg01 *S = new SolutionPkg01;
     S->ShuRu();
     S->CalcResult();
     system("pause");
