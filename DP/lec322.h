@@ -96,7 +96,7 @@ public:
     }
 
 
-//	输入函数
+    //	输入函数
 	// coins = [1,2,5] amount = 11
 	void ShuRu()
 	{
