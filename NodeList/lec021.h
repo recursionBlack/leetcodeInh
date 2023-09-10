@@ -1,7 +1,7 @@
 #pragma once
-#include<iostream>
-#include<Vector>
-#include<stdlib.h>
+#include <iostream>
+#include <vector>
+#include <stdlib.h>
 #include <unordered_set>
 #include <algorithm>
 #include "MyList.h"
