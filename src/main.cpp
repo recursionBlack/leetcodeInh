@@ -1,15 +1,12 @@
-#include "../Qstring/lec013.h"
-#include "../NodeList/MyList.h"
-#include "../NodeList/lec021.h"
-#include "../DP/lec322.h"
-#include "../DP/lec072.h"
-#include "../DP/lecpkg01.h"
+#include "MyList.h"
+#include "lec021.h"
+#include "lec329_2.h"
 
 using namespace std;
 
 int main()
 {
-    SolutionPkg01 *S = new SolutionPkg01;
+    Solution329_2*S = new Solution329_2;
     S->ShuRu();
     S->CalcResult();
     system("pause");
