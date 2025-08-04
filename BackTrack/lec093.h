@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// 分割问题
+// 分割问题，难度太高了，几个题解都没看明白，暂时搁置了
 class Solution093 {
 	vector<string> vec;
 public:
@@ -18,7 +18,7 @@ public:
 	void backtrack(string s, int startindex, vector<string> path)
 	{
 		//前一个条件保证切了4次，后一个条件保证用完了所有字母
-		if (path.size()== 4)
+		if (path.size() == 4)
 		{
 			if (startindex == s.length())
 			{
@@ -84,37 +84,4 @@ public:
 		}
 		return true;
 	}
-
-	//	输入函数
-	void ShuRu()
-	{
-		//2 5 5 2 5 5 1 1 1 3 5
-		cout << "please putin str list" << endl;
-		char c;
-		while (cin >> c)
-		{
-			inputnums.push_back(c);
-		}
-		cin.clear();
-		cin.ignore();
-
-	}
-	// 输出函数
-	void CalcResult()
-	{
-		vector<string> res = restoreIpAddresses(inputnums);
-		for (auto s : res)
-		{
-			cout << "###########" << endl;
-			cout << s << endl;
-		}
-	}
-
-public:
-
-	int m_N = 0;
-	int m_K = 0;
-
-	string inputnums;
-
 };
