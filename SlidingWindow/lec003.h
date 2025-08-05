@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Solution003 {
+class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         // 哈希集合，记录每个字符是否出现过
@@ -29,29 +29,4 @@ public:
         return ans;
 
     }
-
-    void ShuRu()
-    {
-        cout << " plase putin string" << endl;
-        char c;
-        while(cin >> c)
-        {
-            m_String += c;
-        }
-        
-    }
-
-    void ChuShu()
-    {
-        int res = lengthOfLongestSubstring(m_String);
-
-        cout << "the res is " << res << endl;
-    }
-
-public:
-
-    int m_K;
-    int m_N;
-    string m_String;
-
 };
